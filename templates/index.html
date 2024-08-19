@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Zyenex - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href=" {% static 'Z_img\zyenex icon2.png' %} " rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" {% static '/vendor/aos/aos.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/bootstrap/css/bootstrap.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/bootstrap-icons/bootstrap-icons.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/boxicons/css/boxicons.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/glightbox/css/glightbox.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/remixicon/remixicon.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/swiper/swiper-bundle.min.css' %} " rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href=" {% static 'css/style.css' %} " rel="stylesheet">
+
+
+
+  <style>
+    #header {
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+    }
+
+    #header .logo img {
+      max-height: 100px;
+    }
+
+    #main {
+      padding-top: 10px; /* Adjust this value to match the height of your header */
+    }
+
+    #hero h1 span {
+      position: relative;
+      z-index: 1;
+      padding: 0 5px;
+      display: inline-block;
+    }
+    
+    #hero h1 span:before {
+      content: "";
+      position: absolute;
+      height: 50%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #dd1528;
+      z-index: -1;
+    }
+
+    #clients a:hover {
+      color: red !important; 
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="/" class="logo"><img src="{% static 'Z_img/zyenex_logo_square-removebg-preview.png' %}" alt="logo" class="img-fluid"></a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="/">Home</a></li>
+                <li><a class="nav-link scrollto " href="/about">About</a></li>
+                <li><a class="nav-link scrollto " href="/services">Services</a></li>
+                <li><a class="nav-link scrollto" href="/portfolio">Portfolio</a></li>
+                <li><a class="nav-link scrollto " href="/contact">Contact</a></li>
+                <li><a class="getstarted scrollto" href="/contact">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <h1>At <span> Zyenex,</span> We Specialize In Delivering Innovative Graphics Design Solutions  </h1>
+      <h2> Technology Where You Can Trust  </h2>
+      <div class="d-flex">
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href=" {% static 'DB_upload\videos\1_vzi5GNY.mp4' %} " class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+     <!-- ======= Number Section ======= -->
+     <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-end">
+          <div class="col-lg-11">
+            <div class="row justify-content-end">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-emoji-smile"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="809" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-journal-richtext"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="848" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Projects</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-clock"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="006" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Years of experience</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-award"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="472" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Tips</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
+            <img src=" {% static 'DB_upload\Arus_high.jpeg' %} " class="img-fluid" alt="">
+            <a href=" {% static 'DB_upload\videos\1_vzi5GNY.mp4' %} " class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content">
+            <h3>Best Review given by Arus.</h3>
+            <p class="fst-italic">             
+              It is very amazing how well they were able to comprehend my requirements and turn them into aesthetically pleasing designs. Revisions were handled professionally, and communication was fast and clear. His Team showed an uncommon level of attention to detail and dedication to quality.
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> The entire design process went smoothly and quickly.</li>
+              <li><i class="bx bx-check-double"></i> guaranteeing that every last element matched my vision exactly.</li>
+              <li><i class="bx bx-check-double"></i> Zyenex Team took my rough ideas and improved them beyond my wildest dreams to a level of professionalism.</li>
+              <li><i class="bx bx-check-double"></i> The finished images were gorgeous, perfectly and stylishly expressing the spirit of my brand.</li>
+            </ul>
+            <p>
+              Everything about the trip was enjoyable from beginning to end. For anyone looking for top-notch graphic design services, I heartily recommend ZYENEX. Their efforts have greatly improved my products' aesthetic appeal, and I'm excited to collaborate with them once more in the future.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Number Section -->
+
+
+
+
+
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients">
+        <div class="container" data-aos="zoom-in">
+  
+          <div class="row">
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <a class="bi bi-laptop " href="/design/"  style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Designing</strong> </h4></a>
+              {% comment %} <img src=" {% static '/img/clients/client-1.png' %} " class="img-fluid" alt=""> {% endcomment %}
+            </div>
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center ">
+              <a class="bi bi-bar-chart " href="/marketing/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Marketing</strong> </h4></a>
+            </div>
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <a class="bi bi-briefcase" href="/ecommerce/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>E-commerece</strong> </h4></a>
+            </div>
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <a class="bi bi-brightness-high" href="/web/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Web development</strong> </h4></a>
+            </div>
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <a class="bi bi-server" href="/software/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Software development</strong> </h4></a>
+            </div>     
+  
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <a class="ri-body-scan-line" href="/app/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>App development</strong> </h4></a>
+            </div>
+  
+            {% comment %} <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img src=" {% static '/img/clients/client-6.png' %} " class="img-fluid" alt="">
+            </div> {% endcomment %}
+  
+          </div>
+  
+        </div>
+      </section><!-- End Clients Section --> 
+  
+  <!-- End Clients Section -->
+
+    
+<br>
+    
+
+    
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                {% comment %} <img src=" {% static '/img/testimonials/testimonials-2.jpg' %} " class="testimonial-img" alt=""> {% endcomment %}
+                <h3>Sarah J.</h3>
+                <h4>Our Best Clients</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Working with ZYENEX was a complete pleasure. They transformed my imprecise thoughts into a fantastic visual brand. I was blown away by the project's inventiveness and expertise. I'm overjoyed with the finished product and can't wait to work on future projects!"
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                {% comment %} <img src=" {% static '/img/testimonials/testimonials-1.jpg' %} " class="testimonial-img" alt=""> {% endcomment %}
+                <h3>Mike R.</h3>
+                <h4>Our Best Clients</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I couldn't be happier with the logo design created by ZYENEX. Their ability to understand my vision and bring it to life was impressive. The process was smooth, and the communication was excellent. I highly recommend their services to anyone in need of top-notch graphic design.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                {% comment %} <img src=" {% static '/img/testimonials/testimonials-3.jpg' %} " class="testimonial-img" alt=""> {% endcomment %}
+                <h3>Emily K.</h3>
+                <h4>Our Best Clients</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  The website design delivered by ZYENEX is nothing short of amazing. It's visually appealing, user-friendly, and perfectly captures the essence of my brand. The attention to detail and dedication to quality are evident in every aspect of the design. I am beyond satisfied and look forward to working together again.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                {% comment %} <img src=" {% static '/img/testimonials/testimonials-4.jpg' %} " class="testimonial-img" alt=""> {% endcomment %}
+                <h3>Matt Brandon</h3>
+                <h4>Our Best Clients</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I hired ZYENEX for a complete rebranding of my business, and I couldn't be more pleased with the results. The new brand identity is fresh, modern, and professional. This Team was attentive to my needs and provided valuable insights that enhanced the final product. It was a fantastic experience overall.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                {% comment %} <img src=" {% static '/img/testimonials/testimonials-5.jpg' %} " class="testimonial-img" alt=""> {% endcomment %}
+                <h3>David L.</h3>
+                <h4>Our Best Clients</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I approached ZYENEX with a tight deadline and a complex project, and they delivered outstanding results. The graphics they created were innovative and aligned perfectly with my marketing campaign. Their professionalism and ability to work under pressure were truly impressive. Highly recommend!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+
+    
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <a href="/" class="logo"><img src="{% static 'Z_img/zyenex_logo_square-removebg-preview.png' %}" alt="logo" class="img-fluid"></a>
+
+              <p>
+                <strong>Email:</strong> ZynexLLC@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/Zyenex_LLC" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://m.facebook.com/groups/316356317150189/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/zyenexllc?igsh=dzJtaGFqeDZwY2N3" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/zyenex/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/portfolio">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/termsofservice">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/privacypolicy">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Graphics Designs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Social Media Graphics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Streamer Artwork</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/marketing">Marketing </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/web">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/software">Software Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/app">APP Development </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/ecommerce">E-Commerece </a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>𝕊𝕦𝕓𝕤𝕔𝕣𝕚𝕓𝕖 𝕥𝕠 𝕠𝕦𝕣 𝕖𝕞𝕒𝕚𝕝𝕤</p>
+            <form id="newsletterForm" action="{% url 'subscribe_newsletter' %}" method="post">
+                {% csrf_token %}
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div id="newsletterMessage"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2024</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">ZYENEX</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src=" {% static '/vendor/purecounter/purecounter_vanilla.js' %} "></script>
+  <script src=" {% static '/vendor/aos/aos.js' %} "></script>
+  <script src=" {% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %} "></script>
+  <script src=" {% static '/vendor/glightbox/js/glightbox.min.js' %} "></script>
+  <script src=" {% static '/vendor/isotope-layout/isotope.pkgd.min.js' %} "></script>
+  <script src=" {% static '/vendor/swiper/swiper-bundle.min.js' %} "></script>
+  <script src=" {% static '/vendor/php-email-form/validate.js' %} "></script>
+
+  <!-- Template Main JS File -->
+  <script src=" {% static '/js/main.js' %} "></script>
+
+  <!-- Include PureCounter JS from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+
+<script>
+  new PureCounter();
+</script>
+
+
+</body>
+
+</html>

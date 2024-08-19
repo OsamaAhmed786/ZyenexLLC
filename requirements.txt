@@ -1,0 +1,10 @@
+mysqlclient==2.2.4
+Django==5.0.4
+gunicorn==22.0.0
+pillow @ file:///C:/b/abs_e22m71t0cb/croot/pillow_1707233126420/work
+ipython @ file:///C:/b/abs_b6pfgmrqnd/croot/ipython_1704833422163/work
+virtualenv==20.26.0
+dj-database-url
+
+
+

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Zyenex - About</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href=" {% static 'Z_img\zyenex icon2.png' %} " rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" {% static '/vendor/aos/aos.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/bootstrap/css/bootstrap.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/bootstrap-icons/bootstrap-icons.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/boxicons/css/boxicons.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/glightbox/css/glightbox.min.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/remixicon/remixicon.css' %} " rel="stylesheet">
+  <link href=" {% static '/vendor/swiper/swiper-bundle.min.css' %} " rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href=" {% static '/css/style.css' %} " rel="stylesheet">
+
+  <style>
+    #header {
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+    }
+
+    #header .logo img {
+      max-height: 100px;
+    }
+
+    #main {
+      padding-top: 10px; /* Adjust this value to match the height of your header */
+    }
+
+     
+    #clients a:hover {
+      color: red !important; 
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="/" class="logo"><img src="{% static 'Z_img/zyenex_logo_square-removebg-preview.png' %}" alt="logo" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+          <li><a class="nav-link scrollto active" href="/about">About</a></li>
+          <li><a class="nav-link scrollto" href="/services">Services</a></li>
+          <li><a class="nav-link scrollto" href="/portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="/contact">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    
+
+    <!-- ======= About Boxes Section ======= -->
+    <section id="about-boxes" class="about-boxes">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src=" {% static '/img/about-boxes-1.jpg' %} " class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-brush-4-line"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Mission</a></h5>
+                <p class="card-text">Our mission is to achieve excellence in website development and graphic design. We dedicate time to understand our client’S objectives and their audience, so that we can create websites and designs that are not only visually appealing but also effectively communicate their message. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src=" {% static 'Z_img\office.jpeg' %} " class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-calendar-check-line"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">About Us</a></h5>
+                <p class="card-text">In our team, we have experienced designers and website developers who confirm unmatched quality in every project. Each design and development work is done with such detail that it can capture the essence of your brand, so that your goal can be achieved completely.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src=" {% static '/img/about-boxes-3.jpg' %} " class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-movie-2-line"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Vision</a></h5>
+                <p class="card-text">Our vision is to be a leading creative agency recognized for our innovative design solutions and strategic approach. We aspire to empower businesses by delivering impactful and memorable experiences that drive success and foster long-term growth. Through continuous innovation and a commitment to excellence, we aim to set new standards in the industry</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Boxes Section -->
+
+
+
+     <!-- ======= Clients Section ======= -->
+     <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a class="bi bi-laptop " href="/design/"  style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Designing</strong> </h4></a>
+            {% comment %} <img src=" {% static '/img/clients/client-1.png' %} " class="img-fluid" alt=""> {% endcomment %}
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center ">
+            <a class="bi bi-bar-chart " href="/marketing/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Marketing</strong> </h4></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a class="bi bi-briefcase" href="/ecommerce/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>E-commerece</strong> </h4></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a class="bi bi-brightness-high" href="/web/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Web development</strong> </h4></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a class="bi bi-server" href="/software/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>Software development</strong> </h4></a>
+          </div>     
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a class="ri-body-scan-line" href="/app/" style="color: black; transition: color 0.4s ease-in-out;"><h4><strong>App development</strong> </h4></a>
+          </div>
+
+          {% comment %} <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src=" {% static '/img/clients/client-6.png' %} " class="img-fluid" alt="">
+          </div> {% endcomment %}
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section --> 
+
+<!-- End Clients Section -->
+    
+    
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Our Story </h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">What Sets Us Apart</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Our Services</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">F A Q'S</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Our Story starts from 2019.</h3>
+                <p class="fst-italic">
+                  At ZYENEX, we believe that great design has the power to transform businesses and elevate brands. Our journey began with a simple yet ambitious goal: 
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i>  To provide innovative and personalized design solutions that exceed our client’s expectations.</li>
+                  <li><i class="ri-check-double-line"></i> We have worked with clients from various industries.</li>
+                  <li><i class="ri-check-double-line"></i> Helping them stand out in a crowded marketplace with compelling visual identities and impactful designs.</li>
+                </ul>
+                <p>
+                  where creativity meets precision. Founded with a passion for design and a commitment to excellence, we are a leading freelance graphic design agency specializing in branding, web design, and more.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src=" {% static '/img/features-1.png' %} " alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Sets Us Apart</h3>
+                
+                <ul>
+                  <li><i class="ri-check-double-line"></i> <strong> Personalized Approach: </strong> We understand that every client is unique, and we tailor our approach to meet their specific needs and preferences. From the initial consultation to the final delivery, we work closely with our clients to ensure their vision comes to life. </li>
+                  <li><i class="ri-check-double-line"></i>  <strong> Creative Excellence:  </strong> Creativity is at the heart of everything we do. Our team of experienced designers is passionate about pushing the boundaries of design and bringing fresh and innovative ideas to the table. </li>
+                  <li><i class="ri-check-double-line"></i>  <strong> Commitment to Quality: </strong> We are committed to excellence in everything we do. From concept development to final execution, we maintain the highest standards of quality and attention to detail to ensure our clients receive designs that exceed their expectations </li>
+                  <li><i class="ri-check-double-line"></i>  <strong> Timely Delivery: </strong> We understand the importance of deadlines and strive to deliver projects on time, every time. Our efficient processes and dedicated team ensure that we meet even the tightest deadlines without compromising on quality. </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src=" {% static '/img/features-2.png' %} " alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Our Services</h3>
+                
+                <ul>
+                  <li><i class="ri-check-double-line"></i>  <strong>  Branding </strong> Your brand is more than just a logo; it’s the essence of your business. We help you define and communicate your brand identity through strategic branding solutions that resonate with your target audience. </li>
+                  <li><i class="ri-check-double-line"></i>  <strong>  Web Design: </strong>  Your website is your online storefront. We design user-friendly and visually stunning websites that engage visitors and drive conversions, helping you achieve your business goals. </li>
+                  <li><i class="ri-check-double-line"></i> <strong>  Graphic Design: </strong>  From marketing materials to social media graphics, we create compelling visual content that captivates your audience and reinforces your brand message. </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src=" {% static '/img/features-3.png' %} " alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Frequently Asked Question</h3>
+                
+                <ul>
+                  <li><i class="ri-check-double-line"></i>  <strong>  What information do you need from me to start the design ? </strong> <br> To start the design process, we’ll need:
+                    <br>
+                    <ul>
+                      <li>
+                        &#8226; A brief description of your project
+                      </li>
+                      <li>
+                        &#8226;  Your brand’s vision and goals
+                      </li>
+                      <li>
+                        &#8226;  Any specific design preferences or inspirations
+                      </li>
+                      <li>
+                        &#8226;  Content and text for marketing materials or websites
+                      </li>
+                    </ul>
+                    
+                    
+                  </li>
+                  <li><i class="ri-check-double-line"></i>  <strong>  How much do your services cost? </strong> <br> Our pricing varies depending on the project’s scope and complexity. We offer competitive rates and will provide a detailed quote after the initial consultation. Contact us for a customized quote based on your specific needs. </li>
+
+                  <li><i class="ri-check-double-line"></i> <strong>  Do you offer ongoing design support? </strong> <br> Yes, we offer ongoing design support for all our clients. Whether you need updates to your existing designs or new design elements, we are here to help. </li>
+                  
+                  <li><i class="ri-check-double-line"></i> <strong> Can you help with printing services? </strong> <br> While we specialize in graphic design, we can recommend trusted printing partners to ensure your designs are printed to the highest quality. We can also provide print-ready files formatted to your printer’s specifications. </li>
+
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src=" {% static '/img/features-4.png' %} " alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <a href="/" class="logo"><img src="{% static 'Z_img/zyenex_logo_square-removebg-preview.png' %}" alt="logo" class="img-fluid"></a>
+
+              <p>
+                <strong>Email:</strong> ZynexLLC@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/Zyenex_LLC" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://m.facebook.com/groups/316356317150189/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/zyenexllc?igsh=dzJtaGFqeDZwY2N3" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/zyenex/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/portfolio">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/termsofservice">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/privacypolicy">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Graphics Designs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Social Media Graphics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/design">Streamer Artwork</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/marketing">Marketing </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/web">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/software">Software Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/app">APP Development </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/ecommerce">E-Commerece </a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>𝕊𝕦𝕓𝕤𝕔𝕣𝕚𝕓𝕖 𝕥𝕠 𝕠𝕦𝕣 𝕖𝕞𝕒𝕚𝕝𝕤</p>
+            <form id="newsletterForm" action="{% url 'subscribe_newsletter' %}" method="post">
+                {% csrf_token %}
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div id="newsletterMessage"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2024</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">ZYENEX</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src=" {% static '/vendor/purecounter/purecounter_vanilla.js' %} "></script>
+  <script src=" {% static '/vendor/aos/aos.js' %} "></script>
+  <script src=" {% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %} "></script>
+  <script src=" {% static '/vendor/glightbox/js/glightbox.min.js' %} "></script>
+  <script src=" {% static '/vendor/isotope-layout/isotope.pkgd.min.js' %} "></script>
+  <script src=" {% static '/vendor/swiper/swiper-bundle.min.js' %} "></script>
+  <script src=" {% static '/vendor/php-email-form/validate.js' %} "></script>
+
+  <!-- Template Main JS File -->
+  <script src=" {% static '/js/main.js' %} "></script>
+
+</body>
+
+</html>
