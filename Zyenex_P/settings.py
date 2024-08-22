@@ -82,12 +82,15 @@ WSGI_APPLICATION = "Zyenex_P.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-import dj_database_url
-
 DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///{}'.format(os.path.join(BASE_DIR, 'db.sqlite3'))
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'zyenex-db',
+        'USER': 'admin',
+        'PASSWORD': 'Zyenex2021',
+        'HOST': 'zyenex-db.cl6o2wwaeeem.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
+    }
 }
 
 
