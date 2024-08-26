@@ -1,9 +1,9 @@
-mysqlclient==2.2.4
+mysqlclient
 Django==5.0.4
-gunicorn==22.0.0
+gunicorn
 pillow 
 ipython 
-virtualenv==20.26.0
+virtualenv
 dj-database-url
 
 
